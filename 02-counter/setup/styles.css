@@ -16,6 +16,9 @@ nav {
   display: grid;
   align-items: center;
   box-shadow: var(--dark-shadow);
+  font-size: 1.5rem;
+  font-family:var(--ff-primary);
+
 }
 
 :root {
