@@ -20,8 +20,12 @@ btns.forEach(function (btn) {
    if(count > 0){
      value.style.color = "green";
    }
-   else if(count < 0)
+   else if(count < 0){
    value.style.color = "red"
+  }
+  if(count === 0){
+    value.style.color = "#222"
+  }
    value.textContent = count;
  });
 });
