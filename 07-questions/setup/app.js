@@ -9,16 +9,12 @@ questions.forEach(function (question){
   btn.addEventListener('click', function(){
     question.classList.toggle("show-text");
 
-    questions.forEach(function(item){
+  questions.forEach(function(item){
   console.log(item);
   if (item !== question){
     item.classList.remove("show-text");
   }
 });
-
-
-
-
 
   });
 });
